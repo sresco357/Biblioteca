@@ -49,5 +49,7 @@ public class Main {
         System.out.println(user.getDni());
         System.out.println(user.getDireccion());
         System.out.println(user.getTelefono());
+
+
     }
 }
