@@ -17,7 +17,7 @@ public class Main {
         book.setTítulo("Dragones");
         book.setGenero("Fantasia");
         book.setFechapubli("1/2/2003");
-        
+
         System.out.println(book.getIsbn());
         System.out.println(book.getAutor());
         System.out.println(book.getTitulo());
@@ -57,5 +57,5 @@ public class Main {
 
         System.out.println(loan.getFechapres());
         System.out.println(loan.getFechadev());
-
+    }
 }

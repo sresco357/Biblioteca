@@ -4,19 +4,25 @@ import java.util.List;
 public class Prestar {
 
     /** Private **/
-    private String Fechapres;
+    private String fechapres;
 
-    private String Fechadev;
+    private String fechadev;
     private List<Libro> book = new ArrayList<>();
     private List<Usuario> user = new ArrayList<>();
 
     /** Public **/
 
-    public void setFechapres(String Fechapres){
-        this.Fechapres = Fechapres;
+    public void setFechapres(String fechapres){
+        this.fechapres = fechapres;
     }
-    public void setFechadev(String Fechadev){
-        this.Fechadev = Fechadev;
+    public String getFechapres(){
+        return fechapres;
+    }
+    public void setFechadev(String fechadev){
+        this.fechadev = fechadev;
+    }
+    public String getFechadev(){
+        return fechapres;
     }
 
     public void addLibro(Libro book){
