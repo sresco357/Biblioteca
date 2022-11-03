@@ -50,6 +50,12 @@ public class Main {
         System.out.println(user.getDireccion());
         System.out.println(user.getTelefono());
 
+        Prestar loan = new Prestar();
 
-    }
+        loan.setFechapres("Pepe");
+        loan.setFechadev("Garcia");
+
+        System.out.println(loan.getFechapres());
+        System.out.println(loan.getFechadev());
+
 }
